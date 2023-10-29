@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+   font-size: 20px;
+    color: white;
+    font-family: aerial;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    color:rgb(244, 110, 7) ;
+}
+h3{
+    color:rgb(244, 110, 7) ;
+    margin-bottom: 30px; 
+}
+.main{
+    background-color: black;
+    display: flex;  
+    flex-direction: column;
+}
+.nav{
+    position: fixed;
+    background-color:rgb(41, 39, 39) ;
+    width: 15%;
+    height: 715px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul{
+    font-weight: 600;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 100%;
+}
+li{
+   font-size: 20px;
+   padding-top: 20%;
+   
+}
+.navbar ul li.active{
+    color:rgb(244, 110, 7) ;
+}
+ul :hover{
+    color:rgb(244, 110, 7) ;
+}
+.content{
+    background-color: black;
+    margin-left: 15%;
+    width: 85%;
+    height: 715px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.write{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+.write h2{
+    margin-bottom: 10%;
+}
+.image{
+    padding: 4px;
+    background-image: url('sphotos.jpeg.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 300px;
+    border: 5px;
+    border-style: solid;
+    border-color:rgb(244, 110, 7) ;
+    
+}
+
+.svector{
+    background-image: url('5484597-removebg-preview.png');
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+}
+.skills{
+    margin-left: 15%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.project{
+    margin-left: 15%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.pimage{
+    background-image: url('imgofproject.png');
+    background-size: contain;
+    height: 90px;
+    width: 180px;
+}
+.pvector{
+    background-image: url('4380-removebg-preview.png');
+    height: 500px;
+    width: 800px;
+    background-size: cover;
+}
+.contact{
+    margin-left: 15%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.cvector{
+    background-image: url('7335449-removebg-preview.png');
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+}
+.infoimg{
+    
+    display: flex;
+    align-items: center;
+
+}
+.infoimg a{
+    margin: 10px;
+}
+.gimg{
+    background-image: url('Gmail-logoPNG.png');
+    background-size: contain;
+    height: 23px;
+    width: 30px;
+}
+.gilogo{
+    background-image: url('b51b78ecc9e5711274931774e433b5e6.jpg');
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+.linkedinlogo{
+    background-image: url('Linkedin-logo-on-transparent--background-PNG.png');
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+}
+.unstoplogo{
+    background-image: url('unstop-icon-800x800.png');
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+}
+.foot{
+    background-color: rgb(41, 39, 39) ;
+    display: flex;
+    justify-content: center;
+    
+}
+.icon{
+    margin-left: 15%;
+}
+
+
