@@ -16,7 +16,10 @@ h3{
     margin-bottom: 30px; 
 }
 .main{
-    background-color: black;
+   background-image: url('blurred-image11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;  
     flex-direction: column;
 }
